@@ -1,0 +1,9 @@
+# preserve common terms that should remain in English (one per line)
+# Example: move names, item names, proper nouns
+# You can extend this list before running translation
+POKEBALL
+MASTERBALL
+Potion
+Hyper Potion
+Surf
+Thunderbolt

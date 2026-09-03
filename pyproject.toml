@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gen1recomp-polish-generator"
+version = "0.0.1"
+description = "Polish translation mod generator for Gen1Recomp"
+requires-python = ">=3.11"
+
+[project.scripts]
+translation-pipeline = "pipeline.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
